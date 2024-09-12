@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row pt-4">
+    <div class="col-6">
+      <h2 class="text-dark">Albums Table</h2>
+    </div>
+  </div>
+
+  <table id="tbldata" class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th class="text-center">Name</th>
+        <th class="text-center">Description</th>
+        <th class="text-center">Creation date</th>
+        <th class="text-center">Image</th>
+        <ng-container *ngIf="user !== undefined && user?.roles?.includes('Admin')">
+          <th class="text-center">Actions</th>
+        </ng-container>
+      </tr>
+    </thead>
+    <tbody>
+        <!-- Iterate through pictures of each album -->
+        <tr *ngFor="let picture of model.pictures">
+          <td>{{ picture.title }}</td>
+          <td>{{ picture.url }}</td>
+          <td>{{ picture.createdAt | date }}</td>
+          <td>
+            <img (click)="onClick(picture.id)" style="height: 100px; width: 100px;" [src]="imageUrl + (picture.url || '')" alt="No picture available" />
+          </td>
+          <ng-container *ngIf="user !== undefined && user?.roles?.includes('Admin')">
+            <td>
+              <a (click)="deletePicture(picture.id)" class="btn btn-danger btn-md text-center">Delete</a>
+            </td>
+          </ng-container>
+        </tr>
+    </tbody>
+  </table>
+
+  <!-- Pagination Controls -->
+  <div class="d-flex justify-content-center mt-3">
+    <button class="btn btn-secondary me-2" (click)="changePage(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+    <span>Page {{ currentPage }} of {{ totalPages }}</span>
+    <button class="btn btn-secondary ms-2" (click)="changePage(currentPage + 1)" [disabled]="currentPage === totalPages">Next</button>
+  </div>
+</div>

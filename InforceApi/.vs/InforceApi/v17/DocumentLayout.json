@@ -1,0 +1,630 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\controllers\\reactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:controllers\\reactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D16999-BFD3-4951-B530-2AFCB4D915BD}|..\\InforceBL\\InforceBL.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcebl\\dto\\albumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D16999-BFD3-4951-B530-2AFCB4D915BD}|..\\InforceBL\\InforceBL.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcebl\\inforcemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D16999-BFD3-4951-B530-2AFCB4D915BD}|..\\InforceBL\\InforceBL.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcebl\\dto\\picturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\controllers\\picturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:controllers\\picturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\implementations\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\interfaces\\ireactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\implementations\\reactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\implementations\\picturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\inputs\\auth\\registerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\inputs\\reactioninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\inputs\\getreactioninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Migrations\\20240912125309_Add-Likes-and-Dislikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\inputs\\pictureinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\interfaces\\ipicturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\inputs\\albuminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Migrations\\20240912105312_Changed-PictureAlbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D16999-BFD3-4951-B530-2AFCB4D915BD}|..\\InforceBL\\InforceBL.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcebl\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\data\\inforcedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\reactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\repositories\\implementations\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\models\\inputs\\auth\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforceapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4045D489-1581-463B-9C5E-3073ACA6BE43}|InforceApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8051A75-A120-4A91-B5AE-53604390DB4B}|..\\InforceData\\InforceData.csproj|c:\\users\\misha\\source\\repos\\inforcetest\\inforcedata\\inforcedata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Picture.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Picture.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Picture.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Picture.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Picture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:36:48.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InforceMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\InforceMapper.cs",
+              "RelativeDocumentMoniker": "..\\InforceBL\\InforceMapper.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\InforceMapper.cs",
+              "RelativeToolTip": "..\\InforceBL\\InforceMapper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBYAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T16:11:17.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlbumController.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Controllers\\AlbumController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlbumController.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Controllers\\AlbumController.cs",
+              "RelativeToolTip": "Controllers\\AlbumController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAFcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:03:09.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlbumDto.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\DTO\\AlbumDto.cs",
+              "RelativeDocumentMoniker": "..\\InforceBL\\DTO\\AlbumDto.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\DTO\\AlbumDto.cs",
+              "RelativeToolTip": "..\\InforceBL\\DTO\\AlbumDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvwoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T19:08:37.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Controllers\\ReactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReactionController.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Controllers\\ReactionController.cs",
+              "RelativeToolTip": "Controllers\\ReactionController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:52:37.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PictureDto.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\DTO\\PictureDto.cs",
+              "RelativeDocumentMoniker": "..\\InforceBL\\DTO\\PictureDto.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\DTO\\PictureDto.cs",
+              "RelativeToolTip": "..\\InforceBL\\DTO\\PictureDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T19:09:09.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PictureController.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Controllers\\PictureController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PictureController.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Controllers\\PictureController.cs",
+              "RelativeToolTip": "Controllers\\PictureController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwHoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:42:38.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PictureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\PictureRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Implementations\\PictureRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\PictureRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Implementations\\PictureRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:19:54.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\ReactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Implementations\\ReactionRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\ReactionRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Implementations\\ReactionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:19:39.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Implementations\\AlbumRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\AlbumRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Implementations\\AlbumRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:18:27.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IReactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IReactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Interfaces\\IReactionRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IReactionRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Interfaces\\IReactionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:19:16.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240912125309_Add-Likes-and-Dislikes.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Migrations\\20240912125309_Add-Likes-and-Dislikes.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Migrations\\20240912125309_Add-Likes-and-Dislikes.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Migrations\\20240912125309_Add-Likes-and-Dislikes.cs",
+              "RelativeToolTip": "..\\InforceData\\Migrations\\20240912125309_Add-Likes-and-Dislikes.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:53:09.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reaction.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Reaction.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Reaction.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Reaction.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Reaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T12:01:24.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReactionInput.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\ReactionInput.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Inputs\\ReactionInput.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\ReactionInput.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Inputs\\ReactionInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:51:49.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterInput.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\Auth\\RegisterInput.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Inputs\\Auth\\RegisterInput.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\Auth\\RegisterInput.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Inputs\\Auth\\RegisterInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:14:29.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPictureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IPictureRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Interfaces\\IPictureRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IPictureRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Interfaces\\IPictureRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:18:59.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetReactionInput.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\GetReactionInput.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Inputs\\GetReactionInput.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\GetReactionInput.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Inputs\\GetReactionInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:06:42.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PictureInput.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\PictureInput.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Inputs\\PictureInput.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\PictureInput.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Inputs\\PictureInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:51:33.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Album.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Album.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBAwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:36:40.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AlbumInput.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\AlbumInput.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Inputs\\AlbumInput.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\AlbumInput.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Inputs\\AlbumInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:52:03.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:00:37.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240912105312_Changed-PictureAlbum.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Migrations\\20240912105312_Changed-PictureAlbum.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Migrations\\20240912105312_Changed-PictureAlbum.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Migrations\\20240912105312_Changed-PictureAlbum.cs",
+              "RelativeToolTip": "..\\InforceData\\Migrations\\20240912105312_Changed-PictureAlbum.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:53:12.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IAlbumRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Interfaces\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IAlbumRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Interfaces\\IAlbumRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:18:14.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InforceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Data\\InforceDbContext.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Data\\InforceDbContext.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Data\\InforceDbContext.cs",
+              "RelativeToolTip": "..\\InforceData\\Data\\InforceDbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:55:00.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\DTO\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\InforceBL\\DTO\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceBL\\DTO\\LoginResponseDto.cs",
+              "RelativeToolTip": "..\\InforceBL\\DTO\\LoginResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:17:27.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:06:33.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:05:42.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReactionType.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\ReactionType.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\ReactionType.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\ReactionType.cs",
+              "RelativeToolTip": "..\\InforceData\\ReactionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T12:01:39.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Interfaces\\ITokenRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Interfaces\\ITokenRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Interfaces\\ITokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:16:04.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Repositories\\Implementations\\TokenRepository.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Repositories\\Implementations\\TokenRepository.cs",
+              "RelativeToolTip": "..\\InforceData\\Repositories\\Implementations\\TokenRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:15:23.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T10:01:24.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T21:17:59.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginInput.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\Auth\\LoginInput.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Models\\Inputs\\Auth\\LoginInput.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Models\\Inputs\\Auth\\LoginInput.cs",
+              "RelativeToolTip": "..\\InforceData\\Models\\Inputs\\Auth\\LoginInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:14:11.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\InforceData\\Data\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:22:05.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Data\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\InforceData\\Data\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\Data\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\InforceData\\Data\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:22:21.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T10:01:28.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InforceData.csproj",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\InforceData.csproj",
+              "RelativeDocumentMoniker": "..\\InforceData\\InforceData.csproj",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceData\\InforceData.csproj",
+              "RelativeToolTip": "..\\InforceData\\InforceData.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T10:15:08.297Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1151,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<div class="container">
+  <h1 class="text-center">My Albums</h1>
+
+  <!-- Create New Album Button -->
+  <div class="mb-3 text-end">
+
+    <button class="btn btn-dark" (click)="onCreateAlbum()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+      </svg>
+    Create New Album
+    </button>
+  </div>
+
+  <!-- Albums Table -->
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Creation Date</th>
+        <th>Picture</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let album of albums">
+        <td>{{ album.name }}</td>
+        <td>{{ album.description }}</td>
+        <td>{{ album.createdAt  }}</td>
+        <td>
+          <img style="height: 100px; width: 100px;"[src]="imageUrl + (album.pictures?.[0]?.url || '')" alt="No picture available" />
+        </td>
+        <td>
+          <button class="btn btn-danger me-2 col-5" (click)="onDeleteAlbum(album.id)">Delete</button>
+          <button class="btn btn-dark col-5" (click)="onEditAlbum(album.id)">Edit</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

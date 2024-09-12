@@ -1,0 +1,15 @@
+C:\Users\Misha\source\Repos\InforceTest\InforceData\bin\Debug\net8.0\InforceData.deps.json
+C:\Users\Misha\source\Repos\InforceTest\InforceData\bin\Debug\net8.0\InforceData.runtimeconfig.json
+C:\Users\Misha\source\Repos\InforceTest\InforceData\bin\Debug\net8.0\InforceData.dll
+C:\Users\Misha\source\Repos\InforceTest\InforceData\bin\Debug\net8.0\InforceData.pdb
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.csproj.AssemblyReference.cache
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.AssemblyInfoInputs.cache
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.AssemblyInfo.cs
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.csproj.CoreCompileInputs.cache
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.sourcelink.json
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.dll
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\refint\InforceData.dll
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.pdb
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\InforceData.genruntimeconfig.cache
+C:\Users\Misha\source\Repos\InforceTest\InforceData\obj\Debug\net8.0\ref\InforceData.dll

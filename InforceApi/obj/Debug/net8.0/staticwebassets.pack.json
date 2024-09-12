@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\Second image.jpg",
+      "PackagePath": "staticwebassets\\Images\\Second image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\Test title.jpg",
+      "PackagePath": "staticwebassets\\Images\\Test title.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\gffghfgh.jpg",
+      "PackagePath": "staticwebassets\\Images\\gffghfgh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\gffj.jpg",
+      "PackagePath": "staticwebassets\\Images\\gffj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\gfhfghfgh.jpg",
+      "PackagePath": "staticwebassets\\Images\\gfhfghfgh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\ghdfhdg.jpg",
+      "PackagePath": "staticwebassets\\Images\\ghdfhdg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\InforceTest\\InforceApi\\wwwroot\\Images\\sadsad.jpg",
+      "PackagePath": "staticwebassets\\Images\\sadsad.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InforceApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InforceApi.props",
+      "PackagePath": "build\\InforceApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InforceApi.props",
+      "PackagePath": "buildMultiTargeting\\InforceApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InforceApi.props",
+      "PackagePath": "buildTransitive\\InforceApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

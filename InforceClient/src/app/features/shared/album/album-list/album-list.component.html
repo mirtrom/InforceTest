@@ -1,0 +1,40 @@
+<div class="container">
+	<div class="row pt-4">
+		<div class="col-6">
+			<h2 class="text-dark">Albums Table</h2>
+		</div>
+	</div>
+
+	<table id="tbldata" class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th class="text-center">Name</th>
+				<th class="text-center">Description</th>
+				<th class="text-center">Creation date</th>
+				<th class="text-center">Creator</th>
+				<th class="text-center">Image Url</th>
+				<th class="text-center">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let album of model">
+				<td>{{ album.name }}</td>
+				<td>{{ album.description }}</td>
+				<td>{{ album.createdAt }}</td>
+				<td>{{ album.userEmail }}</td>
+				<td> <img style="height: 100px; width: 100px;"[src]="imageUrl + (album.pictures?.[0]?.url || '')" alt="No picture available" /></td>
+        <td>
+          <ng-container *ngIf="user !== undefined && user?.roles?.includes('Admin')" >
+            <a (click)="deleteAlbum(album.id)" class="btn btn-danger btn-md text-center">Delete</a>
+          </ng-container>
+          <a (click)="ViewAlbum(album.id)" class="btn btn-dark btn-md text-center">View</a>
+        </td>
+			</tr>
+		</tbody>
+	</table>
+  <div class="d-flex justify-content-center mt-3">
+    <button class="btn btn-secondary me-2" (click)="changePage(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+    <span>Page {{ currentPage }} of {{ totalPages }}</span>
+    <button class="btn btn-secondary ms-2" (click)="changePage(currentPage + 1)" [disabled]="currentPage === totalPages">Next</button>
+  </div>
+</div>

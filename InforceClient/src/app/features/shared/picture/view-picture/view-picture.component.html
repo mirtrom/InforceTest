@@ -1,0 +1,24 @@
+<div class="container mt-5">
+  <div *ngIf="picture; else loading">
+    <h2>{{ picture.title }}</h2>
+    <div class="text-center"><img style="width: 500px; height: 500px;" [src]="imageUrl + picture.url" alt="{{ picture.title }}" class="img-fluid" /></div>
+    <p><strong>Created At:</strong> {{ picture.createdAt | date }}</p>
+    <div class="mt-4">
+      <button class="btn btn-success me-3" (click)="likePicture()">
+        Like <span class="badge bg-light text-dark">{{ picture.likes }}</span>
+      </button>
+      <button class="btn btn-danger" (click)="dislikePicture()">
+        Dislike <span class="badge bg-light text-dark">{{ picture.dislikes }}</span>
+      </button>
+    </div>
+    <button (click)="onCancel()" class="btn btn-dark mt-3" routerLink="/">Back to Albums</button>
+  </div>
+
+  <ng-template #loading>
+    <div class="text-center mt-5">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </ng-template>
+</div>

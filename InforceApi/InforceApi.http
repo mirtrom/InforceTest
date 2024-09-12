@@ -1,0 +1,6 @@
+@InforceApi_HostAddress = http://localhost:5141
+
+GET {{InforceApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
